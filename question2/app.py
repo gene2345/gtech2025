@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 import datetime
+import os
 
 # =================================================================================================
 # Load Models and Preprocessing Objects
@@ -11,8 +12,11 @@ st.cache_data.clear()
 def load_models():
     """Load the pre-trained XGBoost models and LabelEncoders."""
     try:
-        model_proceed = joblib.load("xgb_best_proceed_to_mediation.pkl")
-        model_settled = joblib.load("xgb_best_settled_undersampled.pkl")
+        BASE_DIR = os.path.dirname(__file__)  # directory of app.py
+        model_path1 = os.path.join(BASE_DIR, "xgb_best_proceed_to_mediation.pkl")
+        model_path2 = os.path.join(BASE_DIR, "xgb_best_settled_undersampled.pkl")
+        model_proceed = joblib.load(model_path1)
+        model_settled = joblib.load(model_path2)
         le_intake = joblib.load("label_encoder_intake.pkl")
         le_dispute = joblib.load("label_encoder_dispute.pkl")
         return model_proceed, model_settled, le_intake, le_dispute
