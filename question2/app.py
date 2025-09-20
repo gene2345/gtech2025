@@ -17,8 +17,10 @@ def load_models():
         model_path2 = os.path.join(BASE_DIR, "xgb_best_settled_undersampled.pkl")
         model_proceed = joblib.load(model_path1)
         model_settled = joblib.load(model_path2)
-        le_intake = joblib.load("label_encoder_intake.pkl")
-        le_dispute = joblib.load("label_encoder_dispute.pkl")
+        model_path3 = os.path.join(BASE_DIR, "label_encoder_intake.pkl")
+        model_path4 = os.path.join(BASE_DIR, "label_encoder_dispute.pkl")
+        le_intake = joblib.load(model_path3)
+        le_dispute = joblib.load(model_path4)
         return model_proceed, model_settled, le_intake, le_dispute
     except FileNotFoundError as e:
         st.error(f"Required file not found: {e}. Ensure all models and encoders are in the directory.")
