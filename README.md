@@ -15,7 +15,7 @@ q2.ipynb contains the training process.
 
 .csv files are the datasets used for training and testing.
 
-.pkl files are the model and LabelEncoder weights.
+.pkl files are the model weights and LabelEncoder mappings.
 
 requirement.txt is the requirements file for the streamlit app only.
 
