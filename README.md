@@ -22,9 +22,9 @@ Q3 contains workflow for LLM marking and evaluation.
 
 q3.ipynb contains the LLM workflow for marking question papers and the evaluation strategy.
 
-Do note that you need a gemini API key to run the workflow.
-
 It contains pdf files for 'O' level history syllabus and sample paper as well.
+
+** Do note that you need a gemini API key to run the workflow.
 
 ## Govtech OA Slides
 pptx file with slides to explain all 3 quesitons
