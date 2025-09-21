@@ -1,5 +1,5 @@
-# Update
-last commit was due to versioning issues on my vsc, only minor changes were made. source code logic did not change much. Apologuize for the inconvenience and please contact me if there any issues :( 
+# Last commit
+minor adjustments were committed due to my local vsc sync issues. Core code functionality and logic remain unchanged. Please reach out if there are any issues.
 
 # Name
 Lee Gene Ee
