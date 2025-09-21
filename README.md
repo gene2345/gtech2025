@@ -1,3 +1,6 @@
+# Update
+last commit was due to versioning issues on my vsc, only minor changes were made. source code logic did not change much. Apologuize for the inconvenience and please contact me if there any issues :( 
+
 # Name
 Lee Gene Ee
 
