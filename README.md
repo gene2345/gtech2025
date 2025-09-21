@@ -1,3 +1,7 @@
+# Name
+Lee Gene Ee
+genelee2025@gmail.com
+
 # Project Description
 This project is for Govtech TAP 2026 Data Scientist track. It consists of the presentation slides, q1, q2 and q3.
 
